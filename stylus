@@ -1,0 +1,308 @@
+.js-detailview.ghx-issue .ghx-issue-content {
+    padding: 10px 10px 0px 38px;
+    line-height: .75rem;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field-content,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field-content div {
+    display: inline;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-fields {
+    margin-top: 3px;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field {
+    display: none;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Hotfix"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Home Blocker"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="RRT"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="GA Blocker"] {
+    display: block;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Hotfix"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Home Blocker"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="RRT"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="GA Blocker"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Stretch"] {
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 3px;
+    margin-bottom: 4px;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Hotfix"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Home Blocker"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="RRT"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="GA Blocker"] {
+    border: 2px solid #a02b37;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Stretch"] {
+    border: 2px solid #ffde58;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Hotfix"] .ghx-extra-field-content span:before,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Stretch"]:before {
+    content: "\26a0";
+    padding-right: 4px;
+}
+
+.js-detailview.ghx-issue .ghx-highlighted-fields {
+	margin-top: 5px;    
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Story Points: 1"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Story Points: 2"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Story Points: 3"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Story Points: 5"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="small"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="medium"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="large"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="xlarge"] {
+    position: absolute;
+    bottom: 15px;
+    right: 9px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 2em;
+    color: rgba(51,51,51,0.8);
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 0.99;
+    margin: 0;
+    min-height: 1em;
+    min-width: 1em;
+    padding: 3px 5px 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="small"] > span.ghx-extra-field-content,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="medium"] > span.ghx-extra-field-content,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="large"] > span.ghx-extra-field-content,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="xlarge"] > span.ghx-extra-field-content {
+    display: none;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="medium"]:before {
+	content: "\24C2";
+    color: black;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="small"]:before {
+	content: "\24C8";
+    color: black;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="large"]:before {
+	content: "\24C1";
+    color: black;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="xlarge"]:before {
+	content: "\24CD";
+    color: black;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.js-detailview.ghx-issue .ghx-end {
+    position: absolute;
+    bottom: 18px;
+}
+
+.js-detailview.ghx-issue .ghx-days b {
+    background: none;
+}
+
+.js-detailview.ghx-issue .ghx-days {
+    height: 16px;
+}
+
+.js-detailview.ghx-issue .ghx-days:before {
+    content: attr(title);
+    font-size: 12px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.js-detailview.ghx-issue.ghx-done .ghx-days {
+    height: 0px;
+}
+
+.js-detailview.ghx-issue.ghx-days-0 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-1 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-2 .ghx-days {
+    background-color: #82c4be;
+    color: #555;
+}
+
+.js-detailview.ghx-issue.ghx-days-3 .ghx-days {
+    background-color: #ffde58;
+    color: #555;
+}
+
+.js-detailview.ghx-issue.ghx-days-4 .ghx-days {
+    background-color: #f28f49;
+    color: #555;
+}
+
+.js-detailview.ghx-issue.ghx-days-5 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-6 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-7 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-8 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-9 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-10 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-11 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-12 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-13 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-14 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-15 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-16 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-17 .ghx-days,
+.js-detailview.ghx-issue.ghx-days-18 .ghx-days {
+    background-color: #a02b37;
+    color: #ddd;
+}
+
+.ghx-done .aui-badge {
+  background: green;
+  color: white;
+}
+
+.ghx-issue-compact.ghx-selected,
+.ghx-issue.ghx-selected,
+.ghx-issue-compact.ghx-selected .ghx-end,
+.ghx-issue.ghx-selected .ghx-end {
+  background: #D2D9E0;
+}
+
+.ghx-issue-compact.ghx-selected .ghx-end,
+.ghx-issue.ghx-selected .ghx-end {
+  box-shadow: -4px 0 3px #D2D9E0, 0 -3px 3px #D2D9E0;
+}
+
+.ghx-issue-compact:hover,
+.ghx-issue-compact.ghx-flagged:hover,
+.ghx-issue-compact.ghx-selected:hover,
+.ghx-issue-compact .ghx-selected-group:hover,
+.ghx-issue-compact:hover .ghx-end,
+.ghx-issue-compact.ghx-flagged:hover .ghx-end,
+.ghx-issue-compact.ghx-selected:hover .ghx-end,
+.ghx-issue-compact .ghx-selected-group:hover .ghx-end {
+  background: #D0D0D0;
+}
+
+.ghx-issue-compact:hover .ghx-end,
+.ghx-issue-compact.ghx-flagged:hover .ghx-end,
+.ghx-issue-compact.ghx-selected:hover .ghx-end,
+.ghx-issue-compact .ghx-selected-group:hover .ghx-end {
+  box-shadow: -4px 0 3px #d0d0d0, 0 -3px 3px #d0d0d0;
+}
+
+.ghx-issue:hover,
+.ghx-issue.ghx-flagged:hover,
+.ghx-issue.ghx-selected:hover,
+.ghx-issue:hover .ghx-end,
+.ghx-issue.ghx-flagged:hover .ghx-end,
+.ghx-issue.ghx-selected:hover .ghx-end {
+  background: #D0D0D0;
+}
+
+.ghx-issue:hover .ghx-end,
+.ghx-issue.ghx-flagged:hover .ghx-end,
+.ghx-issue.ghx-selected:hover .ghx-end {
+  box-shadow: -4px 0 3px #d0d0d0, 0 -3px 3px #d0d0d0;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: In Progress"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: Code Review"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: QE Review"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: Code Complete"],
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: Done"] {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    border: 2px solid #337DFF;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: In Progress"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: Code Review"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: QE Review"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: Code Complete"] > span,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: Done"] > span {
+    padding-right: 4px;
+}
+
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: In Progress"]:before,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: Code Review"]:before,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: QE Review"]:before,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: Code Complete"]:before,
+.js-detailview.ghx-issue .ghx-issue-content .ghx-extra-field[data-tooltip*="Goal for the Day: Done"]:before {
+	content: "\1f945";
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.ghx-plan-extra-fields.ghx-plan-extra-fields-1.ghx-row {
+    display: inline;
+    margin: 0;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields .ghx-extra-field {
+    display: none;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="medium"]:before {
+	content: "\24C2";
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="small"]:before {
+	content: "\24C8";
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="large"]:before {
+	content: "\24C1";
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="xlarge"]:before {
+	content: "\24CD";
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="small"],
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="medium"],
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="large"],
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="xlarge"] {
+    display: inline-block;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    top: 5px;
+    right: -9px;
+}
+
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="small"] > span.ghx-extra-field-content,
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="medium"] > span.ghx-extra-field-content,
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="large"] > span.ghx-extra-field-content,
+.ghx-issue-compact .ghx-plan-extra-fields > span[data-tooltip*="xlarge"] > span.ghx-extra-field-content {
+    display: none;
+}
