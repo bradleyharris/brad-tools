@@ -3,6 +3,7 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 export GITORIGIN="brad"
 
 source ~/repo/tech-tools/workflow-helpers/alias.sh
+source scripts/openpr.sh
 
 PS1="\[\e[38;5;82m\]\t \[\e[38;5;51m\]\w: \[\e[0m\]"
 
