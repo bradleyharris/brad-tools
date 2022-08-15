@@ -10,7 +10,9 @@ PS1="\[\e[38;5;82m\]\t \[\e[38;5;51m\]\w: \[\e[0m\]"
 alias start="python ~/repo/tech-tools/workflow-helpers/startTicket.py"
 alias finish="~/repo/tech-tools/workflow-helpers/finishTicket.py"
 
-alias fpush="git push -f brad HEAD"
+alias pushci="push; git push ci HEAD"
+alias fpush="git push -f $GITORIGIN HEAD"
+alias fpushci="git push -f $GITORIGIN HEAD; git push -f ci HEAD"
 alias gfp=fpush
 alias status="git status"
 alias gst=status
